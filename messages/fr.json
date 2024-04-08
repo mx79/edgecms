@@ -1,0 +1,139 @@
+{
+  "LocaleLayout": {
+    "title": "EdgeCMS",
+    "description": ""
+  },
+  "pages": {
+    "NotFoundPage": {
+      "title": "Page non trouvée",
+      "description": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée.",
+      "backToBefore": "Retour",
+      "backToHome": "Lien vers l'accueil"
+    },
+    "auth": {
+      "ErrorPage": {
+        "title": "Erreur d'authentification",
+        "description": "Une erreur s'est produite lors de l'authentification de votre compte. Veuillez réessayer.",
+        "backToHome": "Retour à l'accueil"
+      },
+      "LoginPage": {
+        "title": "Connexion à EdgeCMS",
+        "description": "Connectez-vous ici pour accéder au tableau de bord de l'application EdgeCMS, où vous pourrez monitorer et gérer votre contenu."
+      },
+      "RegisterPage": {
+        "title": "Inscription à EdgeCMS",
+        "description": "Inscrivez-vous ici pour accéder au tableau de bord de l'application EdgeCMS, où vous pourrez monitorer et gérer votre contenu."
+      },
+      "VerifyEmailPage": {
+        "title": "Vérification de l'email",
+        "description": "Vérifiez votre adresse email pour accéder à votre compte. Consultez votre boîte de réception et cliquez sur le lien que nous vous avons envoyé.",
+        "backToHome": "Retour à l'accueil"
+      }
+    },
+    "chat": {
+      "title": "Parlez à votre assistant IA",
+      "description": "Parlez à votre assistant IA qui vous aidera à gérer votre contenu.",
+      "message_placeholder": "Ecrivez votre message ici...",
+      "button_send": "Envoyer",
+      "button_clear": "Effacer"
+    },
+    "dashboard": {
+      "DashboardHomePage": {
+        "title": "Tableau de bord du CMS",
+        "hi": "Salut"
+      },
+      "DashboardHistoryPage": {
+        "title": "Historique"
+      },
+      "DashboardProfilePage": {
+        "title": "Profil"
+      },
+      "DashboardTutorialPage": {
+        "title": "Tutoriel"
+      },
+      "DashboardUsersPage": {
+        "title": "Utilisateurs"
+      }
+    }
+  },
+  "dashboard": {
+    "Sidebar": {
+      "overview": "Vue d'ensemble"
+    },
+    "MobileSidebar": {
+      "overview": "Vue d'ensemble"
+    }
+  },
+  "dialogs": {
+    "DeleteAccountDialog": {
+      "dialog_title": "Supprimer le compte",
+      "title": "Êtes-vous sûr de vouloir supprimer votre compte ?",
+      "description": "Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.",
+      "cancel": "Annuler",
+      "delete": "Supprimer",
+      "toast_success": {
+        "title": "Compte supprimé",
+        "description": "Votre compte a été supprimé avec succès.",
+        "button": "OK"
+      },
+      "toast_error": {
+        "title": "Erreur lors de la suppression du compte",
+        "description": "Une erreur s'est produite lors de la suppression de votre compte. Veuillez réessayer.",
+        "button": "Recommençer"
+      }
+    }
+  },
+  "forms": {
+    "LoginForm": {
+      "title": "Connectez-vous",
+      "description": "Entrez votre adresse email et mot de passe pour vous connecter à votre compte.",
+      "error_required": "Ce champ est obligatoire",
+      "label_email": "Adresse email",
+      "placeholder_email": "prenom.nom@gmail.com",
+      "label_password": "Mot de passe",
+      "placeholder_password": "Votre mot de passe",
+      "button": "Envoyer-moi un lien de connexion",
+      "or_continue_with": "Ou continuez avec",
+      "toast_success": {
+        "title": "Connexion réussie",
+        "description": "Vous êtes maintenant connecté à votre compte. Bienvenue sur EdgeCMS !",
+        "button": "OK"
+      },
+      "toast_error": {
+        "title": "Erreur de connexion",
+        "description": "Une erreur s'est produite lors de la connexion à votre compte. Veuillez réessayer.",
+        "button": "Recommençer"
+      }
+    },
+    "RegisterForm": {
+      "title": "Inscrivez-vous",
+      "description": "Entrer votre nom, adresse email et mot de passe pour créer un compte.",
+      "error_required": "Ce champ est obligatoire",
+      "label_name": "Nom",
+      "placeholder_name": "Votre nom",
+      "label_email": "Adresse email",
+      "placeholder_email": "prenom.nom@gmail.com",
+      "label_password": "Mot de passe",
+      "placeholder_password": "Votre mot de passe",
+      "label_password_confirm": "Confirmation du mot de passe",
+      "placeholder_password_confirm": "Confirmer votre mot de passe",
+      "button": "Envoyer-moi un lien de connexion",
+      "or_continue_with": "Ou continuez avec",
+      "toast_success": {
+        "title": "Inscription réussie",
+        "description": "Votre compte a été créé avec succès. Bienvenue sur EdgeCMS !",
+        "button": "OK"
+      },
+      "toast_error": {
+        "title": "Erreur lors de l'inscription",
+        "description": "Une erreur s'est produite lors de la création de votre compte. Veuillez réessayer.",
+        "button": "Recommençer"
+      }
+    }
+  },
+  "loaders": {
+    "SectionLoader": {
+      "text": "Chargement de la page..."
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "LocaleLayout": {
+    "title": "EdgeCMS",
+    "description": ""
+  },
+  "pages": {
+    "NotFoundPage": {
+      "title": "Page not found",
+      "description": "Sorry, the page you are looking for doesn't exist or has been moved.",
+      "backToBefore": "Go back",
+      "backToHome": "Link to home"
+    },
+    "auth": {
+      "ErrorPage": {
+        "title": "Authentication error",
+        "description": "There was an error while authenticating your account. Please try again.",
+        "backToHome": "Back to home"
+      },
+      "LoginPage": {
+        "title": "Login to EdgeCMS",
+        "description": "Login here to access the EdgeCMS dashboard, where you can monitor and manage your content."
+      },
+      "RegisterPage": {
+        "title": "Register to EdgeCMS",
+        "description": "Register here to access the EdgeCMS dashboard, where you can monitor and manage your content."
+      },
+      "VerifyEmailPage": {
+        "title": "Email verification",
+        "description": "Verify your email address to access your account. Check your inbox and click on the link we sent you.",
+        "backToHome": "Back to home"
+      }
+    },
+    "dashboard": {
+      "DashboardHomePage": {
+        "title": "CMS Dashboard",
+        "hi": "Hi"
+      },
+      "DashboardHistoryPage": {
+        "title": "History"
+      },
+      "DashboardProfilePage": {
+        "title": "Profile"
+      },
+      "DashboardTutorialPage": {
+        "title": "Tutorial"
+      },
+      "DashboardUsersPage": {
+        "title": "Users"
+      }
+    }
+  },
+  "chat": {
+    "title": "Chat your AI assistant",
+    "description": "Chat with your AI assistant that will help you manage your content.",
+    "message_placeholder": "Type your message here...",
+    "button_send": "Send",
+    "button_clear": "Clear"
+  },
+  "dashboard": {
+    "Sidebar": {
+      "overview": "Overview"
+    },
+    "MobileSidebar": {
+      "overview": "Overview"
+    }
+  },
+  "dialogs": {
+    "DeleteAccountDialog": {
+      "dialog_title": "Delete account",
+      "title": "Are you absolutely sure?",
+      "description": "Are you sure you want to delete your account? This action cannot be undone.",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "toast_success": {
+        "title": "Account deleted successfully",
+        "description": "Your account has been deleted successfully. We're sorry to see you go!",
+        "button": "OK"
+      },
+      "toast_error": {
+        "title": "Error deleting account",
+        "description": "An error occurred while deleting your account. Please try again later.",
+        "button": "Retry"
+      }
+    }
+  },
+  "forms": {
+    "LoginForm": {
+      "title": "Connect to your account",
+      "description": "Enter your email address and password to connect to your account.",
+      "error_required": "This field is required",
+      "label_email": "Email address",
+      "placeholder_email": "firstname.lastname@gmail.com",
+      "label_password": "Password",
+      "placeholder_password": "Your password",
+      "button": "Send me a login link",
+      "or_continue_with": "Or continue with",
+      "toast_success": {
+        "title": "Login successful",
+        "description": "You are now connected to your account. Welcome back!",
+        "button": "OK"
+      },
+      "toast_error": {
+        "title": "Login failed",
+        "description": "An error occurred while connecting to your account. Please try again",
+        "button": "Retry"
+      }
+    },
+    "RegisterForm": {
+      "title": "Register an account",
+      "description": "Enter your name, email address and password to create an account.",
+      "error_required": "This field is required",
+      "label_name": "Name",
+      "placeholder_name": "Your name",
+      "label_email": "Email address",
+      "placeholder_email": "firstname.lastname@gmail.com",
+      "label_password": "Password",
+      "placeholder_password": "Your password",
+      "label_password_confirm": "Confirm password",
+      "placeholder_password_confirm": "Confirm your password",
+      "button": "Send me a login link",
+      "or_continue_with": "Or continue with",
+      "toast_success": {
+        "title": "Registration successful",
+        "description": "Your account has been created successfully. Welcome to EdgeCMS!",
+        "button": "OK"
+      },
+      "toast_error": {
+        "title": "Registration failed",
+        "description": "An error occurred while creating your account. Please try again",
+        "button": "Retry"
+      }
+    }
+  },
+  "loaders": {
+    "SectionLoader": {
+      "text": "Loading the page..."
+    }
+  }
+}
